@@ -2,14 +2,12 @@ package com.example.activitylifecycle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-//To TELL US ABOUT WHAT HAPPEN IN DIFFERENT STATE
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-//You need to call the super class method again
     @Override
     protected void onStart() {
         super.onStart();
